@@ -4,13 +4,20 @@ void main(List<String> arguments) {
 
   //for a
 
-  int p = int.parse(stdin.readLineSync()!);
-  int q = int.parse(stdin.readLineSync()!);
-  int r = int.parse(stdin.readLineSync()!);
+  int p = 5;
+  int q = 8;
+  int r = 6;
   
   int total1 = p + q * r ;
 
   print('$p + $q * $r = $total1');
+
+  int s = 55;
+  int t = 9;
+
+  double total2 = (55+9)%9;
+
+  print('($s + $t) % $t = $total2');
 
 
 
