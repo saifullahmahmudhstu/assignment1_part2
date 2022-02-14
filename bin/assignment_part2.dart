@@ -1,4 +1,4 @@
-import 'dart:io';
+
 
 void main(List<String> arguments) {
 
@@ -15,7 +15,7 @@ void main(List<String> arguments) {
   int s = 55;
   int t = 9;
 
-  double total2 = (55+9)%9;
+  int total2 = (55+9)%9;
 
   print('($s + $t) % $t = $total2');
 
